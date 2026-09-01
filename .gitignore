@@ -1,0 +1,14 @@
+# Java编译输出 target
+target/
+
+# test目录
+test/
+
+# 如果是maven还可以顺带加上这些常用忽略
+*.class
+*.jar
+*.war
+*.log
+.idea/
+.vscode/
+*.iml
