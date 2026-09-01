@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5380364-2c54-4ff1-9e54-851616b83a64" name="Changes" comment="清理不必要的依赖">
-      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/DateCodeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/DateCodeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/LayerCodeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/LayerCodeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/PickupCodeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/PickupCodeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/ShelfCodeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/ShelfCodeFactory.java" afterDir="false" />
+    <list default="true" id="e5380364-2c54-4ff1-9e54-851616b83a64" name="Changes" comment="使用spi机制，让client符合开闭原则">
+      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/client/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +95,7 @@
       <workItem from="1786699613281" duration="8163000" />
       <workItem from="1787217455324" duration="1570000" />
       <workItem from="1787390392720" duration="8584000" />
-      <workItem from="1788241241504" duration="19059000" />
+      <workItem from="1788241241504" duration="19695000" />
     </task>
     <task id="LOCAL-00001" summary="创建取件码生成器">
       <option name="closed" value="true" />
@@ -132,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788265233179</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="使用spi机制，让client符合开闭原则">
+      <option name="closed" value="true" />
+      <created>1788265797134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1788265797134</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +148,7 @@
     <MESSAGE value="修改抽象类Code" />
     <MESSAGE value="添加.gitignore" />
     <MESSAGE value="清理不必要的依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="清理不必要的依赖" />
+    <MESSAGE value="使用spi机制，让client符合开闭原则" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用spi机制，让client符合开闭原则" />
   </component>
 </project>
