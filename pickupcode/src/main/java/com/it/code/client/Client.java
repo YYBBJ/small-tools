@@ -7,10 +7,9 @@ import com.it.code.factory.LayerCodeFactory;
 import com.it.code.factory.PickupCodeFactory;
 import com.it.code.factory.ShelfCodeFactory;
 import com.it.code.styl.Code;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+
+import java.awt.image.AreaAveragingScaleFilter;
+import java.util.*;
 
 public class Client {
     private static Map<Integer, PickupCodeFactory>factoryMap;
@@ -22,15 +21,22 @@ public class Client {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
+        List<PickupCodeFactory>list=new ArrayList<>();
+        for(PickupCodeFactory factory:ServiceLoader.load(PickupCodeFactory.class)){
+            list.add(factory);
+        }
 
         System.out.println("=====欢迎使用取货码生成工具======");
         System.out.println("请选择取货码的格式");
-        System.out.println("选项1 日-序号 例如 1-1");
-        System.out.println("选项2 货架-层-序号 例如 1-1-1");
-        System.out.println("选项3 层-序号 例如 1-1");
+        for(int i=0;i<list.size();i++){
+            System.out.println("选项"+(i+1)+" "+list.get(i).getName());
+        }
 
+
+
+
+
+        Scanner scanner = new Scanner(System.in);
         int stylChoice=scanner.nextInt();
         PickupCodeFactory factory = factoryMap.get(stylChoice);
 

@@ -14,4 +14,9 @@ public class DateCodeFactory implements PickupCodeFactory{
         DateCode dateCode = new DateCode(pickupCode);
         return dateCode;
     }
+
+    @Override
+    public String getName() {
+        return "日-序号";
+    }
 }

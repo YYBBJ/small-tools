@@ -21,4 +21,9 @@ public class ShelfCodeFactory implements PickupCodeFactory{
         ShelfCode shelfCode = new ShelfCode(pickupCode);
         return shelfCode;
     }
+
+    @Override
+    public String getName() {
+        return "货架号-层-序号";
+    }
 }

@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5380364-2c54-4ff1-9e54-851616b83a64" name="Changes" comment="修改抽象类Code">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickupcode/src/test/java/com/it/code/DateCodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/test/java/com/it/code/DateCodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="e5380364-2c54-4ff1-9e54-851616b83a64" name="Changes" comment="清理不必要的依赖">
+      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/DateCodeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/DateCodeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/LayerCodeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/LayerCodeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/PickupCodeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/PickupCodeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/ShelfCodeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/ShelfCodeFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.14550781",
     "project.structure.side.proportion": "0.6195402",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
@@ -98,7 +98,7 @@
       <workItem from="1786699613281" duration="8163000" />
       <workItem from="1787217455324" duration="1570000" />
       <workItem from="1787390392720" duration="8584000" />
-      <workItem from="1788241241504" duration="18618000" />
+      <workItem from="1788241241504" duration="19059000" />
     </task>
     <task id="LOCAL-00001" summary="创建取件码生成器">
       <option name="closed" value="true" />
@@ -116,7 +116,23 @@
       <option name="project" value="LOCAL" />
       <updated>1788264249256</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加.gitignore">
+      <option name="closed" value="true" />
+      <created>1788265133920</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1788265133920</updated>
+    </task>
+    <task id="LOCAL-00004" summary="清理不必要的依赖">
+      <option name="closed" value="true" />
+      <created>1788265233178</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1788265233179</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +141,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建取件码生成器" />
     <MESSAGE value="修改抽象类Code" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改抽象类Code" />
+    <MESSAGE value="添加.gitignore" />
+    <MESSAGE value="清理不必要的依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="清理不必要的依赖" />
   </component>
 </project>

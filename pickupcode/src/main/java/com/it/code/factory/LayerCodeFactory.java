@@ -11,4 +11,9 @@ public class LayerCodeFactory implements PickupCodeFactory{
         LayerCode layerCode = new LayerCode(pickupCode);
         return layerCode;
     }
+
+    @Override
+    public String getName() {
+        return "层-序号";
+    }
 }

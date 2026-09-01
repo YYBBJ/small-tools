@@ -4,4 +4,5 @@ import com.it.code.styl.Code;
 
 public interface  PickupCodeFactory {
     Code getCode(int num);
+    String getName();
 }
