@@ -7,8 +7,8 @@ public class LayerCodeFactory implements PickupCodeFactory{
     @Override
     public Code getCode(int num) {
         //默认一层放100个包裹
-        LayerCode layerCode = new LayerCode();
-        layerCode.setPickupCode((num-1)/100+1+"-"+num);
+        String pickupCode= (num-1)/100+1+"-"+num;
+        LayerCode layerCode = new LayerCode(pickupCode);
         return layerCode;
     }
 }

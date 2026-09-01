@@ -9,7 +9,7 @@ public class ShelfCodeFactory implements PickupCodeFactory{
         /**
          * 默认为单面货架，一个货架有六层，一层最多放100个包裹
          */
-        ShelfCode shelfCode = new ShelfCode();
+
         //获取货架号
         int shelfNum=(num-1)/600+1;
         //偏移位置
@@ -17,7 +17,8 @@ public class ShelfCodeFactory implements PickupCodeFactory{
         //层数
         int layerNum = offsetInShelf / 100 + 1;
         String pickupCode = shelfNum + "-" + layerNum + "-" + num;
-        shelfCode.setPickupCode(pickupCode);
+
+        ShelfCode shelfCode = new ShelfCode(pickupCode);
         return shelfCode;
     }
 }

@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5380364-2c54-4ff1-9e54-851616b83a64" name="Changes" comment="" />
+    <list default="true" id="e5380364-2c54-4ff1-9e54-851616b83a64" name="Changes" comment="创建取件码生成器">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/DateCodeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/DateCodeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/LayerCodeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/LayerCodeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/ShelfCodeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/factory/ShelfCodeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/styl/Code.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/styl/Code.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/styl/DateCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/styl/DateCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/styl/LayerCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/styl/LayerCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/styl/ShelfCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/src/main/java/com/it/code/styl/ShelfCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/factory/DateCodeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/factory/DateCodeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/factory/LayerCodeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/factory/LayerCodeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/factory/ShelfCodeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/factory/ShelfCodeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/styl/Code.class" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/styl/Code.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/styl/DateCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/styl/DateCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/styl/LayerCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/styl/LayerCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/styl/ShelfCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/pickupcode/target/classes/com/it/code/styl/ShelfCode.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +33,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -47,6 +66,7 @@
     "Application.DateCodeTest.executor": "Run",
     "Application.Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -89,11 +109,24 @@
       <workItem from="1786699613281" duration="8163000" />
       <workItem from="1787217455324" duration="1570000" />
       <workItem from="1787390392720" duration="8584000" />
-      <workItem from="1788241241504" duration="16309000" />
+      <workItem from="1788241241504" duration="17557000" />
     </task>
+    <task id="LOCAL-00001" summary="创建取件码生成器">
+      <option name="closed" value="true" />
+      <created>1788262979666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788262979666</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="创建取件码生成器" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建取件码生成器" />
   </component>
 </project>

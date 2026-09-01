@@ -10,8 +10,8 @@ public class DateCodeFactory implements PickupCodeFactory{
     public Code getCode(int num) {
         LocalDate now = LocalDate.now();
         int day = now.getDayOfMonth();
-        DateCode dateCode = new DateCode();
-        dateCode.setPickupCode(day+"-"+num);
+        String pickupCode=day+"-"+num;
+        DateCode dateCode = new DateCode(pickupCode);
         return dateCode;
     }
 }
