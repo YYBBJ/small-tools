@@ -1,4 +1,5 @@
 package com.it.code.client;
+import com.it.code.parameter.ParameterProcessor;
 import com.it.code.service.PickupCodeGenerator;
 import com.it.code.factory.PickupCodeFactory;
 import com.it.code.styl.Code;
@@ -24,6 +25,9 @@ public class Client {
         Scanner scanner = new Scanner(System.in);
         int stylChoice=scanner.nextInt();
         PickupCodeFactory factory = list.get(stylChoice-1);
+
+        // 调用参数处理器，处理用户传入的参数1
+        new ParameterProcessor(factory);
 
         System.out.println("请选择生成取货码的方式");
         System.out.println("选项1 单步获取");
